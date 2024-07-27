@@ -1,0 +1,21 @@
+﻿# 关于
+WonderCircuits.UnitOf是针对PCB的单位转换库，支持19种单位转换，如下。
+1.加速度（Acceleration）
+2.角度（Angle）
+3.面积（Area）
+4.数据存储（DataStorage）
+5.数据传输（DataTransferRate）
+6.电量（ElectricCharge）
+7.能量（Energy）
+8.力（Force）
+9.频率（Frequency）
+10.油耗（FuelEconomy）
+11.长度（Length）
+12.国际单位制词头（MetricPrefix）
+13.压力（Pressure）
+14.速度（Speed）
+15.温度（Temperature）
+16.时间（Time）
+17.扭矩（Torque）
+18.体积（Volume）
+19.重量（Weight）

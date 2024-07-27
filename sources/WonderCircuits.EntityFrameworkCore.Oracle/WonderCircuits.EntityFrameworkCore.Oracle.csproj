@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;</TargetFrameworks>
+		<LangVersion>12</LangVersion>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<RootNamespace></RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.50" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WonderCircuits.EntityFrameworkCore\WonderCircuits.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>
