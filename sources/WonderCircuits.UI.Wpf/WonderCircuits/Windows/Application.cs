@@ -20,7 +20,7 @@ namespace WonderCircuits.Windows
         protected override async void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            var builder = Microsoft.Extensions.Hosting.Host.CreateDefaultBuilder();
+            var builder = Microsoft.Extensions.Hosting.Host.CreateApplicationBuilder();
             OnHostConfiguring(builder);
             _Host = builder.Build();
             WonderCircuits.DependencyInjection.ServiceLocator.SetCurrent(Services);
@@ -44,7 +44,7 @@ namespace WonderCircuits.Windows
             base.OnExit(e);
         }
 
-        protected virtual void OnHostConfiguring(IHostBuilder builder){   }
+        protected virtual void OnHostConfiguring(IHostApplicationBuilder builder){  }
 
         protected virtual void OnHostStarting() {  }
         protected virtual void OnHostStarted() { }
